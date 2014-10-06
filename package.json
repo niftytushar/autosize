@@ -1,31 +1,34 @@
 {
-	"name": "jquery-autosize",
-	"description": "Automatically adjust textarea height based on user input.",
-	"version": "1.18.13",
-	"dependencies": {},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/jackmoore/autosize.git"
-	},
-	"keywords": [
-		"form",
-		"textarea",
-		"ui",
-		"jQuery"
-	],
-	"authors": [
-		{
-			"name": "Jack Moore",
-			"url": "http://www.jacklmoore.com",
-			"email": "hello@jacklmoore.com"
-		}
-	],
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/mit-license.php"
-		}
-	],
-	"homepage": "http://www.jacklmoore.com/autosize",
-	"main": "jquery.autosize.js"
+  "name": "autosize",
+  "title": "Autosize",
+  "description": "Automatically adjust textarea height based on user input.",
+  "version": "2.0.0-alpha",
+  "keywords": [
+    "form",
+    "textarea",
+    "height",
+    "grow"
+  ],
+  "author": {
+    "name": "Jack Moore",
+    "url": "http://www.jacklmoore.com",
+    "email": "hello@jacklmoore.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "homepage": "http://www.jacklmoore.com/autosize",
+  "demo": "http://www.jacklmoore.com/autosize",
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "uglify-js": "^2.4.15"
+  },
+  "config": {
+    "jqueryName": "autosize",
+    "bowerName": "autosize",
+    "fileName": "autosize"
+  }
 }

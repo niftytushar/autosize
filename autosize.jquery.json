@@ -2,15 +2,12 @@
 	"name": "autosize",
 	"title": "Autosize",
 	"description": "Automatically adjust textarea height based on user input.",
-	"version": "1.18.13",
-	"dependencies": {
-		"jquery": ">=1.7"
-	},
+	"version": "2.0.0-alpha",
 	"keywords": [
 		"form",
 		"textarea",
-		"ui",
-		"jQuery"
+		"height",
+		"grow"
 	],
 	"author": {
 		"name": "Jack Moore",
